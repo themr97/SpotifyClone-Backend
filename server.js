@@ -11,7 +11,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
 app.get("/", (req,res) => {
-  res.send(<h1>Working</h1>)
+  res.send('<h1>Working</h1>')
 })
 
 app.post("/refresh", (req, res) => {
